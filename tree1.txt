@@ -2,14 +2,14 @@ I Y
 N 
 I X
 I L
-I K
-I O
-L B
-L C
-I M
-I N
-L F
-L E
-L D
 L A
+I K
+I M
+L D
+I N
+L E
+L F
+I O
+L C
+L B
 N 

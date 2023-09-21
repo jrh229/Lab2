@@ -92,10 +92,10 @@ public class TreeFile {
          /*TODO: replace null below with a new node and recursively call
           readTree on its left and right children */
           result = new BinaryNode<>(line.charAt(2));
-
+          result.left = readTree(file);
           result.right = readTree(file);
 
-          result.left = readTree(file);
+
 
        } else if(line.charAt(0) == 'L'){ //leaf node
          result = new BinaryNode<>(line.charAt(2));
